@@ -19,13 +19,6 @@ public class Settings<carArray> {
     @FindBy(xpath = "//div[text() = 'Показать все']")
     private static WebElement listOpen;
 
-   // @FindBy(xpath = "//input[@placeholder='Марка']")
-   // private static WebElement listOpen;
-
-    // определение локатора  марки из выпадающего списка
-    //  @FindBy(xpath = "//div[@class='eexvxqb0 css-12mzdf e1m504pf0'][1]//div[@class='css-d9w586 e1x0dvi10']")
-   // private List<WebElement> avto;
-
     // определение локатора марок
     @FindBy(xpath = "//div[@class='css-u4n5gw ebqjjri1']/div/div/div")
     private List<WebElement> car;

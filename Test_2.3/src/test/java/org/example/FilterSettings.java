@@ -40,12 +40,4 @@ public class FilterSettings {
         allCity.click();
     }
 
-/*    // определение локатора поля поиска города
-    @FindBy(xpath = "//input[@placeholder='поиск города, региона']")
-    private static WebElement citySearchField;
-
-    // метод ввода названия города
-    public static void inputMileage(String city) {
-        citySearchField.sendKeys(city);
-*/
 }
